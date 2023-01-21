@@ -396,10 +396,11 @@ img {
 .footer-tumbh-link {
   display: flex;
   justify-content: left;
-  gap: 120px;
+  
 }
 .footer-tumbh {
-  max-width: 264px;
+  width: 264px;
+  margin-right: 120px;
 }
 .logo-footer {
   font-family: "Raleway";
@@ -417,12 +418,15 @@ img {
 }
 
 .footer-text {
+
   line-height: 1.5;
   color: var(--footer-text-color);
   margin-top: 16px;
+  
 }
 
 .footer-link {
+  margin-right: 80px;
 }
 .title-footer-link {
   font-weight: 500;
